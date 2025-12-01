@@ -43,8 +43,6 @@
         .hero {
             text-align: center;
             padding: 4rem 1rem;
-            /* Mempertahankan URL eksternal, namun jika Anda ingin gambar lokal,
-               ganti dengan: url('./nama-gambar.jpg') */
             background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://placehold.co/1200x600/4a7c59/white?text=Kayla+Assyifah+Herbal');
             background-size: cover;
             background-position: center;
@@ -63,6 +61,30 @@
         }
         .btn:hover {
             background-color: #c48c5a; /* Warna sedikit lebih gelap */
+        }
+        
+        /* Doctor Info Section */
+        .doctor-info {
+            text-align: center;
+            padding: 3rem 1rem;
+            background-color: white;
+            border-bottom: 1px solid #eee;
+        }
+        .doctor-info img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid var(--primary);
+            margin-bottom: 15px;
+        }
+        .doctor-info h3 {
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+        .doctor-info p {
+            font-style: italic;
+            color: #666;
         }
 
         /* Products */
@@ -173,6 +195,14 @@
         <a href="#produk" class="btn">Lihat Katalog</a>
     </section>
 
+    <section class="doctor-info">
+        <div class="container">
+            <h2 class="section-title" style="margin-bottom: 0.5rem;">Direkomendasikan Oleh</h2>
+            <img src="https://placehold.co/150x150/d4a373/white?text=DR.H+IKBAL" alt="Foto DR. H IKBAL MAULANA S.Ag, MBA">
+            <h3>DR. H IKBAL MAULANA S.Ag, MBA</h3>
+            <p>Pakar Kesehatan Holistik & Pembina Herbal</p>
+        </div>
+    </section>
     <div class="container" id="produk">
         <h2 class="section-title">Produk Unggulan Kami 🌿</h2>
         
